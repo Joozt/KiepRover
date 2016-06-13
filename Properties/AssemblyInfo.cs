@@ -8,7 +8,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("KiepRover")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("C# WPF application for CloudRover wifi RC car")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Joozt")]
 [assembly: AssemblyProduct("KiepRover")]
