@@ -1,5 +1,7 @@
 # CloudRover RC car research & reverse engineering
 
+| Connection details | |
+| --- | --- |
 | Wifi SSID | iCloudRover_879 |
 | Wifi password | 12345 |
 | IP address | 192.168.1.1 |
@@ -9,15 +11,15 @@
 | Port 5201 (UDP) | Control port |
 
 ## Tools
- - Android app, decompiled (JAR can be inspected with [JD-GUI](https://github.com/java-decompiler/jd-gui))
- - Binaries from CloudRover filesystem, retrieved from the RC car via FTP
- - Windows application, traffic inspected with [Wireshark](https://www.wireshark.org/) (see the capture files)
- - Python scripts, created by inspecting the traffic of the Windows application and the Android sources
+ - [Android app](Android app/), decompiled (JAR can be inspected with [JD-GUI](https://github.com/java-decompiler/jd-gui))
+ - [Binaries from CloudRover filesystem](Binaries from CloudRover filesystem/), retrieved from the RC car via FTP
+ - [Windows application](Windows application/), traffic inspected with [Wireshark](https://www.wireshark.org/) (see the capture files)
+ - [Python scripts](Python/), created by inspecting the traffic of the Windows application and the Android sources
 
 ## Python scripts
-The `Control test.py` script sends control commands to UDP port 5201 of the CloudRover. It can make it drive, turn the LEDs on/off and control the camera.
+The [`Control test.py`](Python/Control test.py) script sends control commands to UDP port 5201 of the CloudRover. It can make it drive, turn the LEDs on/off and control the camera.
 
-The `Video test.py` script sends the video start and keepalive commands to UDP port 5201 of the CloudRover. Then, the CloudRover starts broadcasting back JPGs to our UDP port 5207. The JPGs are put on the screen.
+The [`Video test.py`](Python.Video test.py) script sends the video start and keepalive commands to UDP port 5201 of the CloudRover. Then, the CloudRover starts broadcasting back JPGs to our UDP port 5207. The JPGs are put on the screen.
 
 ## CloudRover telnet details
 ```
