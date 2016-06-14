@@ -10,5 +10,7 @@ Features:
 - Turn other LEDs on/off with D and C
 - Automatically connects to CloudRover wifi access point (running inside the car)
 - Show battery level and wifi range level
+ 
+Research & reverse engineering information can be found [here](Research/)
 
 ![CloudRover](CloudRover.jpg "CloudRover")
