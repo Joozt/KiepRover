@@ -19,7 +19,7 @@
 ## Python scripts
 The [`Control test.py`](Python/Control test.py) script sends control commands to UDP port 5201 of the CloudRover. It can make it drive, turn the LEDs on/off and control the camera.
 
-The [`Video test.py`](Python.Video test.py) script sends the video start and keepalive commands to UDP port 5201 of the CloudRover. Then, the CloudRover starts broadcasting back JPGs to our UDP port 5207. The JPGs are put on the screen.
+The [`Video test.py`](Python/Video test.py) script sends the video start and keepalive commands to UDP port 5201 of the CloudRover. Then, the CloudRover starts broadcasting back JPGs to our UDP port 5207. The JPGs are put on the screen.
 
 ## CloudRover telnet details
 ```
