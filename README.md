@@ -14,3 +14,5 @@ Features:
 Research & reverse engineering information can be found [here](Research/)
 
 ![CloudRover](CloudRover.jpg "CloudRover")
+
+See [KiepProjects](https://github.com/Joozt/KiepProjects) for an overview of all Kiep projects.
